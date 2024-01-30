@@ -1,60 +1,61 @@
 /* Reset body margin and padding */
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #efeee7;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: #333333;
-  }
-  
-  /* Style header */
-  header {
-    background-color: #333333;
-    text-align: center;
-  }
-  
-  /* Style h1 */
-  h1 {
-    color: #eee;
-    font-size: 28px;
-    margin: 20px; /* Adjust margins as needed */
-  }
-  
-  /* Style h2 */
-  h2 {
-    font-size: 24px;
-  }
-  
-  /* Center the container */
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-  }
-  
-  /* Float and style sections and image */
-  #main-bio, #contact-info, #bio-image {
-    float: left;
-  }
-  
-  
-  #bio-image {
-    width: 200px;
-    margin-right: 20px; /* Adjust margins as needed */
-    al
-  }
-  
-  /* Adjust the width and line height of contact-info */
-  #main-bio {
-    width: 70%;
-  }
-  
-  #contact-info {
-    width: 30%;
-    line-height: 1.5; /* 1.5 times the font size */
-  }
-  
-  /* Style links */
-  a {
-    color: #d21034;
-  }
- 
+  margin: 0;
+  padding: 0;
+  background-color: #efeee7;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #333333;
+}
+
+/* Style header */
+header {
+  background-color: #333333;
+  text-align: center;
+}
+
+/* Style h1 */
+h1 {
+  color: #eee;
+  font-size: 28px;
+  margin: 20px; /* Adjust margins as needed */
+}
+
+/* Style h2 */
+h2 {
+  font-size: 24px;
+}
+
+/* Center the container */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* Float and style sections and image */
+#main-bio, #contact-info, #bio-image {
+  float: left;
+}
+
+
+#bio-image {
+  width: 200px;
+  margin-right: 20px; /* Adjust margins as needed */
+  /* Corrected the incomplete property here */
+  /* Example: */
+  /* margin-left: 10px; */
+}
+
+/* Adjust the width and line height of contact-info */
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+  line-height: 1.5; /* 1.5 times the font size */
+}
+
+/* Style links */
+a {
+  color: #d21034;
+}
