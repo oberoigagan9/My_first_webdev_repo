@@ -35,11 +35,7 @@ body {
   #main-bio, #contact-info, #bio-image {
     float: left;
   }
-
-  /* Float and style the para to the center */
-  #p {
-    text-align: center;
-  }
+  
   
   #bio-image {
     width: 200px;
