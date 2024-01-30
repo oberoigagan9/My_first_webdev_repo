@@ -39,10 +39,7 @@ h2 {
 
 #bio-image {
   width: 200px;
-  margin-right: 20px; /* Adjust margins as needed */
-  /* Corrected the incomplete property here */
-  /* Example: */
-  /* margin-left: 10px; */
+  margin-right: 20px; 
 }
 
 /* Adjust the width and line height of contact-info */
