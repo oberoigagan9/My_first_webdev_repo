@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us Form</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  form {
+    width: 300px;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  td {
+    padding: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  li {
+    list-style: none; /* Remove bullet points */
+  }
+</style>
+</head>
+<body>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="18fd3feb-d032-489d-8ba9-ca2dfd30e198">
+        
+        <table>
+          <tr>
+            <td><li>Name</li></td>
+            <td><input type="text" name="First Name" required></td>
+          </tr>
+          <tr>
+            <td><li>Email</li></td>
+            <td><input type="email" name="email" required></td>
+          </tr>
+          <tr>
+            <td><li>Phone Number</li></td>
+            <td><input type="text" name="Phone Number" required></td>
+          </tr>
+          <tr>
+            <td><li>Message for Gagandeep</li></td>
+            <td><textarea name="message" required></textarea></td>
+          </tr>
+        </table>
+
+        <button type="submit">Submit Form</button>
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+    </form>
+</body>
+</html>
