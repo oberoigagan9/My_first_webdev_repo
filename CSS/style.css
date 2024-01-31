@@ -56,3 +56,6 @@ h2 {
 a {
   color: #d21034;
 }
+.contact-us {
+  margin-top: 20px; /* This adds space above the Contact Us link */
+}
