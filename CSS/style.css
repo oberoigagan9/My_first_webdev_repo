@@ -1,61 +1,42 @@
-/* Reset body margin and padding */
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #efeee7;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #333333;
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /* mobile devices */
+  body {
+      background-color: tan;
+  }
 }
 
-/* Style header */
-header {
-  background-color: #333333;
-  text-align: center;
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* small ipads and small android tablets */
+  body {
+      background-color: teal;
+  }
 }
 
-/* Style h1 */
-h1 {
-  color: #eee;
-  font-size: 28px;
-  margin: 20px; /* Adjust margins as needed */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* laptops and small screens */
+  body {
+      background-color: orange;
+  }
+  h1, h2 {
+      text-align: center;
+      color: green;
+  }
+  ul, li {
+      text-align: center;
+      color: white;
+  }
 }
 
-/* Style h2 */
-h2 {
-  font-size: 24px;
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  /* large screens and desktops */
+  body {
+      background-color: green;
+  }
 }
 
-/* Center the container */
-.container {
-  width: 1024px;
-  margin: 0 auto;
-}
-
-/* Float and style sections and image */
-#main-bio, #contact-info, #bio-image {
-  float: left;
-}
-
-
-#bio-image {
-  width: 200px;
-  margin-right: 20px; 
-}
-
-/* Adjust the width and line height of contact-info */
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 30%;
-  line-height: 1.5; /* 1.5 times the font size */
-}
-
-/* Style links */
-a {
-  color: #d21034;
-}
-.contact-us {
-  margin-top: 20px; /* This adds space above the Contact Us link */
+@media screen and (min-width: 1201px) and (orientation: landscape) {
+  /* large LCD screens and beyond */
+  body {
+      background-color: magenta;
+  }
 }
